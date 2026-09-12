@@ -52,9 +52,11 @@ bookbuilder-v4/
 │   └── agent_roles/                      One file per role
 ├── assets/templates/
 │   ├── imprint_profile.md                Publisher/series brand profile
+│   ├── master_book_brief_template.md     Fill-in brief the author preps and pastes in,
+│   │                                     instead of a live setup interview
 │   ├── book_control_templates.md         Book Bible, Master Outline, Project Status,
 │   │                                     Claim Ledger, Source Registry, Citation Audit,
-│   │                                     Image Manifest, Voice Profile
+│   │                                     Image Manifest, Master Book Brief, Voice Profile
 │   ├── chapter_folder_templates.md       Per-chapter file skeletons
 │   └── front_matter_template.md
 └── scripts/

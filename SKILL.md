@@ -26,7 +26,9 @@ This skill covers a lot of ground. Don't run the whole pipeline reflexively. Wor
 which of these the author actually wants right now:
 
 - **Starting a brand-new book (or series)** → read `references/project_setup.md` and run
-  the Book Brief Interview. Don't scaffold files before that conversation happens.
+  the Book Brief Interview. Don't scaffold files before that conversation happens. If the
+  author pastes or attaches a completed Master Book Brief instead of answering live, use
+  that file's Step 1 fast path (intake from a brief) rather than interviewing from scratch.
 - **Working on a specific chapter** (opening, researching, outlining, drafting, reviewing)
   → read `references/chapter_workflow.md` in full. It's the actual protocol, not a summary.
 - **A voice/style pass on already-drafted prose** → `references/humanizer_checklist.md`.
@@ -71,7 +73,10 @@ Full procedure in `references/project_setup.md`. In brief:
    target of critique, audience, register, length, chapter spine, flashpoints, citation
    style, standalone-or-series, imprint, and required human reviewers. Propose answers
    where you can infer them and have the author correct you, rather than making them
-   fill in blanks you could have filled yourself.
+   fill in blanks you could have filled yourself. If the author instead pastes a completed
+   Master Book Brief (`assets/templates/master_book_brief_template.md`), the same 15
+   answers come from that document instead of a live back-and-forth — see
+   `project_setup.md`'s Step 1 fast path.
 2. **Capture the author's voice.** Ask for one or two samples of their own prose and
    write `Voice_Profile.md`. The humanizer is far better with a target than without one.
 3. **Scaffold the control files** from `assets/templates/book_control_templates.md` into
@@ -202,7 +207,8 @@ one chapter with one heading.)
 - `references/print_layout_spec.md`: the print design specification, including image placement and the `:::image ... :::` embedding syntax.
 - `references/cover_design_spec.md`: front cover, spine, and back cover specification.
 - `assets/templates/imprint_profile.md`: publisher/series brand profile, filled per project.
-- `assets/templates/book_control_templates.md`: Book Bible, Master Outline, Project Status, Claim Ledger, Source Registry, Citation Audit, Image Manifest.
+- `assets/templates/master_book_brief_template.md`: fill-in form for the author to prepare a book's setup offline and paste in, instead of a live interview.
+- `assets/templates/book_control_templates.md`: Book Bible, Master Outline, Project Status, Claim Ledger, Source Registry, Citation Audit, Image Manifest, Master Book Brief.
 - `assets/templates/chapter_folder_templates.md`: per-chapter file skeletons.
 - `assets/templates/front_matter_template.md`: title page and imprint page.
 - `scripts/build_interior_docx.py`: the print-interior build script.

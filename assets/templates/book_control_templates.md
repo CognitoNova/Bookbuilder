@@ -354,6 +354,50 @@ book is publish-ready.]
 
 ---
 
+## Master_Book_Brief.md
+
+Only created when a book's setup came from a pasted brief (`project_setup.md`'s Step 1
+fast path). A live-interview setup has no brief to preserve, so skip this file entirely.
+
+```markdown
+# Master Book Brief
+**[Book Title]**
+
+Pasted by the author: [date]
+Filled from `assets/templates/master_book_brief_template.md` (or close enough in shape to
+recognize as one).
+
+This file is a fixed record of what the author actually provided at setup — it does not
+get edited as the project evolves. `Book_Bible.md` is the living document; this is what it
+was built from. Compare the two anytime to see how the project's self-understanding has
+developed since day one.
+
+---
+
+## As Pasted
+
+[The author's brief, verbatim, exactly as given — no cleanup, no correction, no
+paraphrasing.]
+
+---
+
+## Intake Log
+
+[What Claude did with the brief at setup:]
+
+**Taken as stated:** [Which of the 15 interview items the brief answered directly, used
+without modification.]
+
+**Proposed and confirmed:** [Which items the brief left blank or unclear, what was
+proposed to fill them, and that the author confirmed or corrected each — with the final
+confirmed version, not just the proposal, if it changed.]
+
+**Still open:** [Anything genuinely unresolved after intake, carried into
+`Project_Status.md`'s Open Editorial Decisions rather than guessed at here.]
+```
+
+---
+
 ## Image_Manifest.md
 
 ```markdown

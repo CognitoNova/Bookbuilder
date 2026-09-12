@@ -19,6 +19,12 @@ If a project folder is connected, look before you ask. An author who has to re-a
 questions the files already answer will reasonably conclude the system isn't paying
 attention.
 
+**Also check whether the author has pasted or attached a Master Book Brief** (filled from
+`assets/templates/master_book_brief_template.md`, or close enough to it in shape and
+content to recognize as one — the author doesn't have to use the exact template). If so,
+skip the live interview below and use "Step 1 (fast path): intake from a pasted brief"
+instead.
+
 ## Step 1: interview
 
 Ask these in one structured pass. **Propose answers wherever you can infer them** and have
@@ -83,6 +89,46 @@ substantially, and it's the question most often forgotten.
 **15. Open questions.** Anything the author already knows they'll want a human expert or
 lawyer to weigh in on.
 
+## Step 1 (fast path): intake from a pasted Master Book Brief
+
+Same destination as the live interview — the same 15 answers, arrived at from what the
+author already wrote instead of drawn out one question at a time. Do not treat a brief as
+an excuse to skip judgment; a pasted document still needs reading closely, not rubber-
+stamping.
+
+1. **Map the brief onto the 15 interview items one by one.** Most briefs won't use the
+   template's exact numbering or headings — match by content, not by section title.
+2. **Anything the brief states clearly, use as stated.** Don't re-ask it, and don't
+   "improve" it into something the author didn't say — a stated thesis or chapter spine is
+   the author's call, not a first draft to workshop.
+3. **Anything the brief leaves blank or unclear, propose an answer** the same way the live
+   interview does — draft a plausible chapter spine, genre-trap list, or reviewer panel
+   from what *is* filled in, per the interview's own guidance above. Don't invent specifics
+   the brief gives no basis for (a named flashpoint, a specific genre trap tied to a real
+   case) — propose only what the rest of the brief actually supports, and mark anything
+   else as a genuine open question instead.
+4. **Batch every open question into one message**, the same "one structured pass" the live
+   interview uses — never trickle them out one at a time once a brief already exists to
+   work from.
+5. **Present the full picture back before scaffolding anything**: what came from the brief,
+   what was proposed and why, and what's still open. Wait for a real go-ahead, same as
+   Step 3 (author approval of scope) always requires — a brief being detailed doesn't lower
+   this bar.
+6. **Preserve the brief itself.** Once setup proceeds, save the author's pasted text
+   verbatim into `00_Book_Control/Master_Book_Brief.md` (template in
+   `book_control_templates.md`), along with a short intake log: what was taken as stated,
+   what was proposed, and how each open question got resolved. `Book_Bible.md` is the
+   living, evolving document from here forward; this file stays a fixed record of the
+   original ask, the same way `Source_Registry.md` keeps a source's canonical description
+   distinct from every place it's later cited.
+
+A brief does not shortcut **Step 2** (voice capture) unless it included a writing sample or
+named a target register (the template's optional section 16) — a thorough brief about what
+the book argues is not a substitute for knowing how the author writes. It does not shortcut
+**Step 4**'s judgment sections either, unless the brief already drafted them (sections 17-18) —
+propose those from the rest of the brief exactly as the live path would, and get them
+confirmed like anything else.
+
 ## Step 2: capture the voice
 
 Ask for one or two samples of the author's own prose: a published piece, a blog post, an
@@ -125,6 +171,9 @@ Create `00_Book_Control/` and populate from
 
 Also fill, if applicable:
 - `imprint_profile.md` for a publisher or series with a brand standard.
+- `Master_Book_Brief.md` — only if setup came from the fast path above; holds the author's
+  pasted brief verbatim plus the intake log. Skip this file entirely for a live-interview
+  setup; there's no brief to preserve.
 
 **Set the book code now.** Two to four characters, recorded in the Book Bible, used in every
 Claim ID for this book. See `traceability.md`.
