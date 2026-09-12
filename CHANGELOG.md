@@ -66,7 +66,7 @@ Heading 1) so the table of contents field (`\\o "1-2"`) nests chapters under the
 manuscript with no Part headings builds exactly as before, just with chapter titles on
 Heading 2 instead of Heading 1 (same visual size, 24pt). `find\_unrecognized\_h1\_lines` no
 longer flags Part headings as unrecognized H1s. Prompted by migrating a real 6-Part, 20-chapter
-manuscript (Into this project structure) into this project structure — the tooling had no way
+manuscript into this project structure — the tooling had no way
 to represent a Part grouping before this.
 
 ## v4.2: dropped the provenance line from the chapter export
