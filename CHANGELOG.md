@@ -51,7 +51,7 @@ scaffolding step, and `SKILL.md`'s routing list and reference index all updated 
 `CHAPTER\_HEADING\_RE` now also matches `# Appendix A: Title` (any letter/number after
 "Appendix"), so back-matter appendices can sit in `Current\_Manuscript.md` and
 `build\_interior\_docx.py` alongside numbered chapters, rendered the same way (their own
-section, running header, optional endnotes). Needed for a real manuscript (, migrated from
+section, running header, optional endnotes). Needed for a real manuscript, migrated from
 a single flat file, with nine reference appendices between the last chapter and the bibliography;
 without this they had no path into the compiled manuscript at all.
 
